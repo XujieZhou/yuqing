@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百度舆情</title>
+	</head>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/bdyq.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script>
+		$(function(){
+			$('#yuqing').fullpage({
+			 'navigation': true,
+			 navigationTooltips:["登录百度舆情","领先：数据收集与处理","全面：舆情分析逻辑与架构","专业：专业数据可视化"],
+			 afferLoad:function(anchorLink,index){
+			 	$(".center").removeClass("active")
+				$(".center").eq(index-1).addClass("active")
+			 }
+			});
+		}); 
+	</script>
+	<body>
+		<div id="head">
+			<div class="headcen">
+				<a href="javascript:;" class="baidu"></a>
+				<div class="headleft">
+					<ul>
+						<li>
+	        				<a href="#">首页</a>
+	        			</li>
+	        			<li>
+	        				<a href="#">产品介绍</a>
+	        			</li>
+	        			<li>
+	        				<a href="#">用户版</a>
+	        			</li>
+					</ul>
+				</div>
+				<div class="headright">
+					<a href="#" class="dl">登陆</a>
+	     		   	<a href="#" class="dl shouji">手机客户端<i class="hot"></i>
+						<div class="xxk">
+	                   	  <div class="top">
+	                   	  	 <div class="sj1"></div>
+	                   	  	 <div class="sj2"></div>
+	                   	  	 <div class="sm">
+	                   	  	 	<div class="xktop">扫码下载</div>
+	                   	  	 	<div class="ewm">
+                   	  	 			<div class="sec">
+                   	  	 			  <i class="andriod"></i>
+                   	  	 			  <p>安卓</p>	
+                   	  	 			</div>	
+                   	  	 			<div class="sec">
+                   	  	 			  <i class="iphone"></i>
+                   	  	 			  <p>ios</p>	
+                   	  	 			</div>	
+	                   	  	 	</div>
+	                   	  	 </div>
+	                   	  </div>
+	                   </div>
+	     		   	</a>
+	     		   	<a href="#" class="dl">百度司南</a>
+	     		   	<a href="#" class="dl">联系我们</a>
+	     		   	<a href="#" class="dl se">申请试用</a>
+				</div>
+			</div>
+		</div>
+		<div id="yuqing">
+			<div class="section">
+				<div class="yun1"></div>
+				 	<div class="yun2"></div>
+				 	<div class="yun3"></div>
+				<div class="center">
+					<img src="img/1.png" alt="" class="zhong" />
+					<img src="img/14.png" alt="" class="plane" />
+					<img src="img/15.png" alt="" class="bing1" />
+				 	<img src="img/2.png" alt="" class="bing2" />
+				 	<img src="img/19.png" alt="" class="bing3" />
+				 	<img src="img/18.png" alt="" class="chuan" />
+				 	<img src="img/16.png" alt="" class="down" />
+				</div>
+				<div class="bottom1"></div>
+			</div>
+			<div class="section">
+				<div class="center">
+					<img src="img/7.png" class="lx"/>
+                	<img src="img/22.png" class="shu"/>
+                	<div class="zi">
+                		<h1>数据收集与处理</h1>
+                		<p>
+                			15年专业数据收集与语义分析技术积累
+                			<br />
+                			卓越极致，不断攀登
+                		</p>
+                	</div>
+                	<img src="img/16.png" class="down"/>  
+                	<div class="box1"></div>
+                	<div class="box2"></div>
+                	<div class="box3"></div>
+                	<div class="box4"></div>
+                	<div class="box5"></div> 
+				</div>
+			</div>
+			<div class="section">
+				<div class="center">
+					<img src="img/21.png" class="lx"/>
+                	<img src="img/17.png" class="shu"/>
+                	<div class="zi">
+                		<h1>舆情分析逻辑与架构</h1>
+                		<p>
+                			声量诊断、传播分析、情感提炼、受众画像
+                			<br />
+                			有方法论，更有智慧
+                		</p>
+                	</div>
+                	<img src="img/16.png" class="down"/> 
+				</div>
+				<div class="bottom2"></div>
+			</div>	
+			<div class="section">
+				<div class="center">
+					<img src="img/8.png" class="lx"/>
+                	<img src="img/10.png" class="yuan"/>
+                	<img src="img/23.png" class="shugan"/>
+                	<div class="zi">
+                		<h1>专业数据可视化</h1>
+                		<p>
+                			非凡的数据洞悉和可视化能力
+                			<br />
+                			精研数据，惊艳所见
+                		</p>
+                	</div>
+				</div>
+			</div>	
+		</div>
+	</body>
+</html>
