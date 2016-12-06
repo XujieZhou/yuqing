@@ -314,6 +314,85 @@
 	}
 }
 
+#login{
+	position: absolute;
+	right: 150px;
+	top:126px;
+	width: 340px;
+	height: 285px;
+	background:#4ebffc;
+	z-index: 10;
+	border-radius: 5px;
+	padding: 0 25px;
+	box-sizing: border-box;
+}
+#login .num{
+	width: 100%;
+	height: 40px;
+	float: left;
+	padding-left:40px ;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-top: 25px;
+	font-family: "微软雅黑";
+	outline:none;
+	
+}
+#login .pswd{
+	width: 100%;
+	height: 40px;
+	float: left;
+	padding-left:40px ;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	outline:none;
+}
+
+#login .yan{
+	width: 50%;
+	height: 40px;
+	float: left;
+	padding-left:20px ;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	outline:none;
+}
+#login .login1{
+	width: 100%;
+	height: 36px;
+	background: #ffd850;
+	color:#5c4c12;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	margin-top: 20px;
+}
+#login .safe{
+	float: left;
+	width: 50%;
+	height: 20px;
+	text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+#login .question{
+	float: right;
+	width: 50%;
+	height: 20px;
+	text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+     margin-top: 10px;
+}
 
 
 /*第二屏*/
